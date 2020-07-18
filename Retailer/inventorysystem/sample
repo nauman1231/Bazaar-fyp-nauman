@@ -1,0 +1,41 @@
+
+      <NAVBAR menuClicked={(event) => {
+        setDrawer(true)
+      }}></NAVBAR>
+      <DRAWER drawerOpen={Drawer} />
+
+
+      <div style={{ margin: "3rem" }}  >
+        <Grid container className={classes.root} spacing={2}
+          justify="center"
+          alignItems="center"
+          spacing={3}
+        >
+
+          <Grid item lg={3}>
+            <CARDS></CARDS>
+          </Grid>
+          <Grid item lg={3}>
+            <CARDS></CARDS>
+          </Grid>
+          <Grid item lg={3}>
+            <CARDS></CARDS>
+          </Grid>
+
+          <Grid item lg={3}>
+          <CARDS></CARDS>
+        </Grid>
+        <Grid item lg={3}>
+          <CARDS></CARDS>
+        </Grid>
+        <Grid item lg={3}>
+          <CARDS></CARDS>
+        </Grid>
+
+
+
+        </Grid>
+      </div>
+
+
+

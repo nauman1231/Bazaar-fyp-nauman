@@ -1,0 +1,54 @@
+htmL {
+  height: 100%;
+  overflow-y: auto;
+}
+#root{
+  height: 100%;
+  
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  width: 100%;
+  display: block;
+  position: absolute;
+  
+}
+
+/* 
+@media screen and (min-width:375px) {
+  html {
+    height: 250vh;
+  }
+  #root{
+    height: 250vh;
+  }
+  
+}
+
+@media screen and (max-height:700px) and (max-width: 450px ) {
+  html {
+    height: 270vh;
+  }
+  #root{
+    height: 270vh;
+  }
+
+  
+
+}
+@media screen and (min-width:768px)  {
+  html {
+    height: 100vh;
+  }
+  #root{
+    height: 100vh;
+  }}
+  @media screen and (min-width:1140px)  {
+    html {
+      height: 108vh;
+    }
+    #root{
+      height: 180vh;
+    }} */

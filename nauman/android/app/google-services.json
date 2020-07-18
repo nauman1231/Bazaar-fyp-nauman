@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "282038020887",
+    "firebase_url": "https://bazaar-88136.firebaseio.com",
+    "project_id": "bazaar-88136",
+    "storage_bucket": "bazaar-88136.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:282038020887:android:f23df578fbb75472f76552",
+        "android_client_info": {
+          "package_name": "com.nauman"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "282038020887-3qg4uhnqskkt22mo8b4mnhhgqvg3iu0a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nauman",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "282038020887-hlpf7gdi64o6rq5jqms960ul310ara51.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZ9fDx3j5Kg8GAJwgVyNzckP933Zn7pUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "282038020887-hlpf7gdi64o6rq5jqms960ul310ara51.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

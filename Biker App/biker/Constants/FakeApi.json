@@ -1,0 +1,74 @@
+[
+    {
+        "id":"12315",   
+        "name": "AHMED",
+        "stops": [
+            {
+                "name": "CONSUMER A ",
+                "location": {
+                    "latitude": "33.745648",
+                    "longitude": "33.7878"
+                }
+            }
+        ],
+        "address":"Rwp",
+        "items": "5",
+        "totalPrice": "PKR 5000",
+        "totalDistance": "4.6 km",
+        "retailers": [
+            {
+                "name": "PUNJAB CASH AND CARRY",
+                "address": "Rwp",
+                "itemsNum": 3,
+                "totalPrice":"PKR 2500",
+                "items":[
+                    {
+                        "name":"Apple",
+                        "qty":"2Kg",
+                        "img":"Apple.png"
+                    },
+                    {
+                        "name":"Lays",
+                        "qty":"1 (Family Pack)",
+                        "img":"Lays.png"
+                    }
+                ]
+            },
+            {
+                "name": "SAVE MART",
+                "address": "Rwp",
+                "items": 3,
+                "items":[
+                    {
+                        "name":"Coke",
+                        "qty":"1.5 ltr",
+                        "img":"Coke.png"
+                    }
+                  
+                ]
+            },
+            {
+                "name": "CSD",
+                "address": "Isb",
+                "items": 1,
+                "items":[
+                    {
+                        "name":"Snickers",
+                        "qty":"1 (L)",
+                        "img":"Snickers.png"
+                    },
+                    {
+                        "name":"Dairy Milk",
+                        "qty":"2",
+                        "img":"DairyMilk.png"
+                    }
+                ]
+            }
+        ],
+        "driver":{
+            "name":"Saddar",
+            "location":"Chandi Chowk"
+        }
+
+    }
+]

@@ -1,0 +1,337 @@
+/*!
+
+ =========================================================
+ * Paper Kit React - v1.0.0 based on Paper Kit - v2.2.0
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/paper-kit-2
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
+
+@import 'paper-kit/variables';
+@import 'paper-kit/mixins';
+
+// Plugins CSS
+@import "paper-kit/plugins/plugin-bootstrap-switch";
+@import "paper-kit/plugins/plugin-nouislider";
+@import "paper-kit/plugins/plugin-datepicker";
+
+// Core CSS
+@import "paper-kit/buttons";
+@import "paper-kit/inputs";
+@import "paper-kit/checkbox-radio";
+@import "paper-kit/progress-bars";
+@import "paper-kit/badges";
+@import "paper-kit/pagination";
+@import "paper-kit/typography";
+@import "paper-kit/misc";
+@import "paper-kit/labels";
+
+// components
+@import "paper-kit/nucleo-icons";
+@import "paper-kit/social-buttons";
+@import "paper-kit/tabs-navs";
+@import "paper-kit/navbars";
+@import "paper-kit/dropdown";
+@import "paper-kit/alerts";
+@import "paper-kit/images";
+@import "paper-kit/tooltips-and-popovers";
+@import "paper-kit/modal";
+@import "paper-kit/icons";
+@import "paper-kit/carousel";
+@import "paper-kit/footers";
+
+// Cards
+@import "paper-kit/cards";
+@import "paper-kit/cards/card-plain";
+@import "paper-kit/cards/card-register";
+@import "paper-kit/cards/card-profile";
+
+// example pages and sections
+@import "paper-kit/examples";
+@import "paper-kit/sections";
+
+
+@import "paper-kit/responsive";
+
+// React Differences
+@import "react/react-differences.scss";
+
+
+.largeIcon {
+  font-size: 20px;
+  color: black;
+}
+
+.circle {
+  display: block;
+  position: relative;
+  background: orange;
+  border-radius: 50%;
+  text-align: center;
+  top: -35px;
+  right: -10px;
+}
+
+.cirlceText {
+  margin: 0;
+  font-size: .6rem !important;
+}
+
+.center {
+  text-align: center;
+}
+
+.Row {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 2rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.Grid {
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 2rem;
+}
+
+.footerBlack {
+  background: #0a0a0a;
+}
+
+.cardTitle {
+  font-weight: 600;
+}
+
+.cardDescription {
+  font-weight: 500;
+}
+
+
+.banner {
+  padding: 5rem;
+  background: rgb(235, 235, 235);
+  text-align: center;
+}
+
+.bannerTitle {
+  font-weight: bold;
+  text-align: center;
+  font-size: 4rem;
+  margin: 0;
+}
+
+.product {
+  width: 70%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 5rem;
+  margin-bottom: 3rem;
+}
+
+.produtImage {
+  padding: 4rem;
+  display: flex;
+  align-items: center;
+  background: rgb(235, 235, 235);
+  border-radius: 8px;
+}
+
+.productDetail {
+  margin-left: 3rem;
+}
+
+.prodImg {
+  width: 100%;
+}
+
+.productTitle {
+  margin: 0;
+  font-weight: bold;
+}
+
+
+
+.productDescription {
+  margin-top: 2rem;
+  font-size: .9rem;
+  color: black;
+}
+
+.productBtn {
+  margin-top: 2rem;
+  padding: 1rem 3rem;
+  border: none;
+  background: rgb(82, 247, 82);
+  color: white;
+  font-weight: bold;
+}
+
+.retailerName {
+  font-size: 1rem;
+  margin: 0;
+  margin-left: .5rem;
+  color: black;
+}
+
+.productPrice {
+  font-weight: bold;
+  color: rgb(92, 175, 92);
+}
+
+.parentContainer {}
+
+.productInp {
+  padding: .9rem;
+  width: 80px;
+  margin-right: 1rem;
+  border: none;
+  outline: none;
+  background: rgb(231, 231, 231);
+}
+
+
+// Cart Style 
+
+.cartItems {
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+}
+
+.cartItem {
+  display: flex;
+  justify-content: space-between;
+  background: rgb(240, 240, 240);
+  padding: 1.5rem;
+  align-items: center;
+  margin: 2rem;
+
+}
+
+.itemImageContainer {
+  width: 100px;
+}
+
+.itemImage {
+  width: 100%;
+}
+
+.itemTxt {
+  margin: 0;
+  margin-bottom: .5rem;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+.itemPrice p {
+  font-weight: bold;
+}
+
+.itemQuantity p {
+  font-weight: bold;
+}
+
+.TotalPrice {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.TotalPrice p {
+  margin: 0;
+  margin-right: 2rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.totalPriceText {
+  color: #4CAF50;
+}
+
+.checkoutBtn {
+  margin-left: 2rem;
+  border: none;
+  outline: none;
+  font-weight: 600;
+  color: white;
+  background: #4CAF50;
+  margin-top: 2rem;
+  cursor: pointer;
+  padding: .8rem 2rem;
+}
+
+.form {
+  background: #FAFAFA;
+}
+
+.FormTitle {
+  color: rgb(31, 31, 31);
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.formInput {
+  background: #EEEEEE;
+}
+
+
+
+/// CHECKOUT FORM
+
+
+.checkoutForm {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background: #F5F5F5;
+  padding: 3rem;
+}
+
+.formHeading {
+  font-size: 1.5rem;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.checkoutInput {
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  padding: .6rem;
+  width: 100%;
+}
+
+.cardInput{
+  margin: 1rem 0;
+background: white;
+  padding:.6rem;
+}
+
+.purchaseBtn{
+  margin: 1rem 0;
+  border: none;
+  outline: none;
+  width: 100%;
+  background: #2196F3;
+  font-weight: 600;
+  color: white;
+  padding: .8rem 1rem;
+}
+
+.blackText{
+   color: black;
+}

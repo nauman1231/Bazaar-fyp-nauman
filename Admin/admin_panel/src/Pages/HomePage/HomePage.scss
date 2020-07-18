@@ -1,0 +1,25 @@
+.homepage-container{
+    display: grid;
+    grid-template-columns: 15% 80%;
+    column-gap: 6rem;
+}
+
+
+.dashboard{
+    padding-right: 4rem;
+}
+
+.searchBar-container{
+    
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.dashboard-table{
+    max-height: 400px;
+    overflow-y: auto;
+    margin: 2rem 0;
+    padding: 1rem;
+    overflow-x:  hidden;
+}

@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="19" height="21" viewBox="0 0 19 21">
+  <defs>
+    <style>
+      .cls-1, .cls-3 {
+        fill: none;
+      }
+
+      .cls-2 {
+        clip-path: url(#clip-path);
+      }
+
+      .cls-3 {
+        stroke: #333;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 1.25px;
+      }
+    </style>
+    <clipPath id="clip-path">
+      <rect class="cls-1" width="19" height="21"/>
+    </clipPath>
+  </defs>
+  <g id="shopping-bag" class="cls-2">
+    <path id="Path_456" data-name="Path 456" class="cls-3" d="M5.833,2,3,5.8V19.1A1.894,1.894,0,0,0,4.889,21H18.111A1.894,1.894,0,0,0,20,19.1V5.8L17.167,2Z" transform="translate(-2 -1)"/>
+    <line id="Line_22" data-name="Line 22" class="cls-3" x2="17" transform="translate(1 5)"/>
+    <path id="Path_457" data-name="Path 457" class="cls-3" d="M16,10a4,4,0,0,1-8,0" transform="translate(-2.5 -1.5)"/>
+  </g>
+</svg>

@@ -1,0 +1,36 @@
+.BtnText{
+    font-family: "Poppins",sans-serif;
+    font-size: 12pt;
+    font-weight: 600;
+    letter-spacing:1pt;
+    margin: 0;
+    padding: 0;
+
+}
+
+.BtnContainer{
+    display: inline-block;
+    text-align: center;
+    padding: .5rem 2.5rem;
+    border-radius: 36px;
+
+}
+
+.Btn_filled{
+    background: rgb(0, 5, 39);
+    color: rgb(255, 255, 255);
+}
+
+.Btn_outlined{
+    border:  2px solid rgb(0, 5, 39);
+}
+
+.Btn_filled_gradient{
+    background: linear-gradient(rgb(0, 11, 83),rgb(0, 3, 26)) ;
+    color: rgb(255, 255, 255); 
+}
+
+.Btn_filled_danger{
+    background: rgb(235, 0, 0);
+    color: white;
+}

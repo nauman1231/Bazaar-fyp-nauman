@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5de2970aff3d222e80c83b86"},"Name":"lays","Discription":"alla lays","Brand":"pepsi","Price":"50","Quantity":"10","store_id":{"$oid":"5de22dcf4a05f01e10a5c619"},"__v":{"$numberInt":"0"}}
+{"_id":{"$oid":"5de29ff5bb46661c34252dd1"},"Name":"lays","Discription":"alla lays","Brand":"pep","Price":"500","Quantity":"10","store_id":{"$oid":"5de23087464b8b1a54f497d9"},"__v":{"$numberInt":"0"}}

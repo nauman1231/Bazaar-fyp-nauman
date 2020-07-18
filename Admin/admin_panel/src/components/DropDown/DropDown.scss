@@ -1,0 +1,21 @@
+.DropDown{
+    display: flex;
+    align-items: baseline;
+}
+
+.DropDownLabel{
+    font-family: 'Poppins',sans-serif;
+    display: inline-block;
+    margin-right: .5rem;
+    color: rgb(110, 110, 110);
+    
+}
+
+
+.DropDownSelect{
+    width: 80px;
+    padding: .3rem;
+    border-radius: 6px;
+    outline: none;
+}
+

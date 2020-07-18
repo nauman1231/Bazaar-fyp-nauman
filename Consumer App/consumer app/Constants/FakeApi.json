@@ -1,0 +1,72 @@
+[
+    {
+        "id":"12315",   
+        "name": "Usama",
+        "stops": [
+            {
+                "name": "TRA KA GHAR ",
+                "location": {
+                    "latitude": "33.745648",
+                    "longitude": "33.7878"
+                }
+            }
+        ],
+        "address":"Rwp",
+        "items": "5",
+        "totalPrice": "PKR 5000",
+        "totalDistance": "4.6 km",
+        "retailers": [
+            {
+                "name": "PUNJAB CASH AND CARRY",
+                "address": "Rwp",
+                "itemsNum": 3,
+                "totalPrice":"PKR 2500",
+                "items":[
+                    {
+                        "name":"Lip Stick",
+                        "qty":"8"
+                    },
+                    {
+                        "name":"Red Stick",
+                        "qty":"2"
+                    }
+                ]
+            },
+            {
+                "name": "SAVE MART",
+                "address": "Rwp",
+                "items": 3,
+                "items":[
+                    {
+                        "name":"Lip Stick",
+                        "qty":"8"
+                    },
+                    {
+                        "name":"Red Stick",
+                        "qty":"2"
+                    }
+                ]
+            },
+            {
+                "name": "CSD",
+                "address": "Isb",
+                "items": 1,
+                "items":[
+                    {
+                        "name":"Lip Stick",
+                        "qty":"8"
+                    },
+                    {
+                        "name":"Red Stick",
+                        "qty":"2"
+                    }
+                ]
+            }
+        ],
+        "driver":{
+            "name":"Saddar",
+            "location":"Chandi Chowk"
+        }
+
+    }
+]

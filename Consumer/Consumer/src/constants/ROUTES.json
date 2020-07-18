@@ -1,0 +1,7 @@
+{
+    "HOME": "./",
+    "RETAILER_PAGE": "/Retailers",
+    "CUSTOMER_PAGE": "/Customers",
+    "DELIVERER_PAGE": "/Deliverer",
+    "USERDETAIL_PAGE": "/UserDetail"
+}

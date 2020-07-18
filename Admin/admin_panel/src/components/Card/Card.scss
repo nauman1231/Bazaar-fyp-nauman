@@ -1,0 +1,39 @@
+.Cardcontainer{
+    font-family: 'Poppins',sans-serif;
+    letter-spacing: .5pt;
+    display: flex;
+    // width: 100%;
+    align-items: center;
+    padding: .6rem  1rem;
+    margin: 1rem 0rem;
+    justify-content: space-between;
+    background: #F6F9FC;
+    margin-top: .5rem;
+    overflow-x: auto;
+    cursor: pointer;
+}
+
+.CardText{
+    font-weight: 600;
+    font-size: 10pt;
+    margin: 0 ;
+    padding: 0;
+    margin: .5rem 1rem;
+}
+
+.CardimageContainer{
+  display: flex;  
+  border-radius: 50%;
+  background: rgb(221, 221, 221);
+//   padding:.5rem;
+  width: 36px;
+}
+
+.Cardimage{
+    border-radius: 50%;
+    width: 100%;
+}
+
+.info{
+    color: rgb(0, 160, 0);
+}

@@ -1,0 +1,79 @@
+.ExpandedCardContainer {
+    display: grid;
+    padding: 1rem 0;
+    grid-template-columns: auto 85%;
+    grid-column-gap: 5%;
+    transition: all .5s;
+    width: 100%;
+    margin: 0rem 0;
+    border-radius: 12px;
+    margin-bottom: 2.5rem;
+    background: #F6F9FC;
+    transition:  all .5s;
+    cursor: pointer;
+}
+
+.ExpandedCardContainer:hover {
+    box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.10);
+    -webkit-filter:opacity(.85);
+}
+
+
+
+.ImageContainer {
+    width: 100%;
+    display: flex;
+    min-width: 150px;
+    align-items: center;
+    justify-content: center;
+    // border: 1px solid rgb(219, 219, 219);
+    border-radius: 2px;
+    padding-left: 1rem;
+}
+
+
+.ExpandedCardImage {
+    width: 100%;
+    // border:  1px solid black;
+}
+
+.ExpandedCardDetailContainer {
+    // padding: 0 1rem;
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+
+.DetailInnerContainer {
+    flex-basis: 25%;
+    margin: 0rem 0 0rem 0;
+}
+
+.DetailInnerContainer:nth-child(n+5){
+    margin-top: 3rem;
+}
+
+.heading {
+    color: #979797;
+}
+
+
+.heading p {
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    color: #3A3A3A;
+}
+
+.content p {
+    margin: 0;
+    padding: 0;
+}
+
+
+
